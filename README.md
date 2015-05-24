@@ -8,7 +8,7 @@ It removes:
 
 Tested with Magento version 1.9.1.0
 
-You can move more links by adding more actions like this in app\design\frontend\base\default\layout\solitarul_customeraccountnavigation.xml:
+You can remove more links by adding more actions like this in app\design\frontend\base\default\layout\solitarul_customeraccountnavigation.xml:
 
             </action>
             <action method="removeLinkByName">
