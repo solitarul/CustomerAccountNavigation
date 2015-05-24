@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Solitarul_CustomerAccountNavigation>
+            <version>0.0.1</version>
+        </Solitarul_CustomerAccountNavigation>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <customeraccountnavigation>
+                    <file>solitarul_customeraccountnavigation.xml</file>
+                </customeraccountnavigation>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <customer>
+                <rewrite>
+                    <account_navigation>Solitarul_CustomerAccountNavigation_Block_Account_Navigation</account_navigation>
+                </rewrite>
+            </customer>
+        </blocks>
+        <helpers>
+            <customernaccountavigation>
+                <class>Solitarul_CustomerAccountNavigation_Helper</class>
+            </customernaccountavigation>
+        </helpers>
+    </global>
+</config>

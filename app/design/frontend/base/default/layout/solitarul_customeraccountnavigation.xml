@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layout>
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="removeLinkByName">
+                <name>billing_agreements</name>
+            </action>
+            <action method="removeLinkByName">
+                <name>recurring_profiles</name>
+            </action>
+        </reference>
+    </customer_account>
+</layout>

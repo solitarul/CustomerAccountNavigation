@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Solitarul_CustomerAccountNavigation>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Solitarul_CustomerAccountNavigation>
+    </modules>
+</config>
