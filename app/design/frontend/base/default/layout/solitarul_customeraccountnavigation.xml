@@ -8,6 +8,9 @@
             <action method="removeLinkByName">
                 <name>recurring_profiles</name>
             </action>
+            <action method="removeLinkByName">
+                <name>OAuth Customer Tokens</name>
+            </action>
         </reference>
     </customer_account>
 </layout>
